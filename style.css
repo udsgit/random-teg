@@ -1,0 +1,132 @@
+.dado{
+    display: inline-block;
+    margin: 5px 0px 0px 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10% 10% 10% 10%;
+    border: 2px solid black;
+    background-color: #fafafa;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.bandejaDados{
+    margin-top: 5px;
+    display: block;
+    background-color: cadetblue;
+    border: 5px solid black;
+}
+
+.interface{
+    margin-top: 5px;
+    padding: 5px;
+    display: block;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+
+.combate{
+    left: 50px;
+    top: 50px;
+    position: absolute;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.ficha{
+    position: absolute; 
+    display: block;
+    border-radius: 100%;
+    box-shadow: -0.5px 0.5px 3px black;
+}
+
+.tarjetaPais{
+    width: 100;
+    height: 100;
+    border-radius: 20%;
+    background-color: darkgoldenrod;
+    color: black;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.botonCerrar{
+    align-self: center;
+    width: 5px;
+    height: 5px;
+    padding: 2px;
+    margin: 0px;
+}
+
+.botonTirarDado{
+    align-self: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 0px;
+}
+
+.casilla{
+    display: grid;
+    grid-template-rows: repeat(100,1px);
+    grid-template-columns: repeat(100,1px);
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
+.pixel{
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+    width: 1px;
+    height: 1px;
+}
+
+.paisNuevo{
+    display: grid;
+    grid-template-rows: repeat(100,1px);
+    grid-template-columns: repeat(100,1px);
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
+.tableroNuevo{
+    display: grid;
+    grid-template-rows: repeat(10,100px);
+    grid-template-columns: repeat(10,100px);
+    width: 1000px;
+    height: 1000px;
+    margin: 0px;
+    border: 5px solid black;
+}
+
+.nombrePais{
+    margin: 25px 25px 25px 20px;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.numFichas{
+    margin: 50px 25px 25px 45px;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+}
