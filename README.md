@@ -15,7 +15,7 @@ Es un proyecto abandonado, el cual estaba inspirado en el juego de mesa **T.E.G.
 
 ## **Web interactiva**
 
-https://udsgit.github.io/teg-game
+https://udsgit.github.io/random-teg
 
 ## **Imágenes**
 
