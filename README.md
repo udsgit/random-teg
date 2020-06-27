@@ -1,4 +1,4 @@
-# **TEG-Game**
+# **Random T.E.G.**
 
 ## **Resumen**
 
@@ -20,7 +20,7 @@ https://udsgit.github.io/teg-game
 ## **Imágenes**
 
 ![Screenshot](imagenes/readme/random.png)
-*Ejemplo de 3 Tableros creados aleatoriamente.*
+*Ejemplo de 3 Tableros creados aleatoriamente.*  
 
 ![Screenshot](imagenes/readme/zoom.png)
 *Ejemplo de Loseta con zoom para apreciar los 10.000 divs.*
