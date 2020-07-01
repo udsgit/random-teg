@@ -1,39 +1,61 @@
-# **Random T.E.G.**
+# **Random TEG**
+> Is a interactive game inspired by the board games like TEG, RISK...
 
-## **Resumen**
+## **Table of contents**
+- [**Random TEG**](#random-teg)
+  - [**Table of contents**](#table-of-contents)
+  - [**General info**](#general-info)
+  - [**Screenshots**](#screenshots)
+  - [**Technologies**](#technologies)
+  - [**Setup**](#setup)
+  - [**Usage**](#usage)
+  - [**Status**](#status)
+  - [**Contact**](#contact)
 
-Es un proyecto abandonado, el cual estaba inspirado en el juego de mesa **T.E.G.** (similar al **RISK**), pero con la diferencia de que el mapa siempre se generaría aleatoriamente.
+## **General info**
+**Date**: December, 2019.  
+**Duration**: 1 Week.  
 
-## **Información sobre el proyecto**
+During the winter holidays I want to learn more about **JavaScript** and I set myself a challenge, develop a game with only **Vanilla JS** without frameworks and external libraries, because I was beginning with this language and I needed to practice.
 
-**Motivo:** Practicar JS.  
-**Fecha:** Diciembre 2019.  
-**Duración:** 1 Semana.  
-**Autor:** Emmanuel González.
+I have called the game **Random TEG** because I wanted to develop an algorithm for generate the countries randomly and since I had no idea how to do it, it occurred to me to create a board with **Grid** from **CSS** and every tile would be composed of 10,000 Divs 🤪 (100x100), because I needed each pixel to save states. So I distributed the code in classes and finally I designed the algorithm for the random generation of countries.
 
-**Comentarios:** Durante las vacaciones de invierno he querido practicar **JS** y me propuse un reto para ello, desarrollar el juego de mesa **T.E.G.** (similar al **RISK**) y que generase el mapa de forma aleatoria usando **Vanilla JS** sin ningún tipo de librería, ya que hasta el momento es lo único que conocía porque llevaba 2 meses aprendiendo **JS**. Lo que se me ocurrió fue crear un tablero con **GRID** de **CSS** y que cada loseta estuviera formado por 10.000 DIVS (100x100) para que cada una de ellas representase un pixel para poder pintarlo. Luego distribuí el código por clases para tenerlo más ordenado y diseñe un algoritmo para que se crease aleatoriamente cada país y posteriormente sus países limítrofes manteniendo la forma del continente como si de una isla se tratase. **Lamentablemente el proyecto se había convertido en algo bastante grande y se abandono por no disponer de tiempo.*
+Unfortunately the project got quite big and very poorly optimized (around 20 seconds for create the board...) because of the 10,000 divs per tile and since I didn't have time, I abandoned it.
 
-## **Web interactiva**
-
-https://udsgit.github.io/random-teg
-
-## **Imágenes**
-
+## **Screenshots**
 ![Screenshot](imagenes/readme/random.png)
-*Ejemplo de 3 Tableros creados aleatoriamente.*  
+>*Example of 3 random generator boards.*  
 
 ![Screenshot](imagenes/readme/zoom.png)
-*Ejemplo de Loseta con zoom para apreciar los 10.000 divs.*
+>*Example of the zoomed tile to observe the 10,000 divs.*  
 
-## **Instalación**
+## **Technologies**
+* Vanilla JS.
 
-No tiene instalación, simplemente hay que clonar/descargar el repositorio.
+## **Setup**
 
-## **Guía de uso**
+It has no installation, you just need to clone or download the repository.
 
-1. Abrir el enlace del apartado **Web Interactiva** o ejecutar el archivo **index.html** con el navegador.
-2. Abrir la consola del navegador, ya que es donde saldrá la información del juego.
-3. Añadir los jugadores junto al color elegido y crear el tablero **puede tardar más de 20 segundos en generarse el mapa*.
-4. La primera ronda es la de incorporación inicial, cada jugador tendrá que incorporar 8 fichas utilizando **control + click** a su país elegido y luego pulsara el botón de finalizar turno.
-5. La segunda ronda también es de incorporación pero solo 4 fichas, se hace de la misma manera.
-6. La tercera ronda es cuando comienzan los ataques y para ello hay que arrastrar el país seleccionado propio sobre el país limítrofe enemigo y aparecerá una ventana para atacar con los dados. **a partir de aquí se abandono el proyecto, por lo tanto es probable que no funcione bien, incluso la función de arrastrar puede tener algunos problemas*.
+```bash
+git clone https://github.com/udsgit/random-teg.git
+```
+
+Or just open the [Demo](https://udsgit.github.io/random-teg).
+
+## **Usage**
+
+1. Open the link from the [Demo](https://udsgit.github.io/random-teg) or open the file **index.html** if you downloaded it.
+2. Open the browser console, because all the information about the game is explained there, unfortunately it is in Spanish.
+3. Add each player writing their name and choosing their color.
+4. Press ***Crear tablero*** *it can take about 20 seconds to generate the board*.
+5. The first round is to incorporate troops, each player will have to add 8 tokens to their countries using ***shift + click***, then the player will press ***Acabar turno***.
+6. The second round is similar but only incorporates 4 tokens in the same way.
+7. The third round is when the first player will attack by dragging a token from one of their countries and drop it in an enemy bordering country. A new window will appear to roll the dice. *From here the project was abandoned, therefore it is probably not working well, even the drag function may have some problems.*
+
+## **Status**
+Project is: ***Abandoned.***  
+
+Because the project was intended to be practiced for a week and became a larger and more complex project.
+
+## **Contact**
+Created by [@Emmanuel](https://www.linkedin.com/in/emagleza/), feel free to contact me!
