@@ -1,5 +1,5 @@
 # **Random TEG**
-> Is a interactive game inspired by the board games like TEG, RISK...
+Is a interactive game inspired by the board games like **TEG** and **RISK**.
 
 ## **Table of contents**
 - [**Random TEG**](#random-teg)
@@ -23,14 +23,14 @@ I have called the game **Random TEG** because I wanted to develop an algorithm f
 Unfortunately the project got quite big and very poorly optimized (around 20 seconds for create the board...) because of the 10,000 divs per tile and since I didn't have time, I abandoned it.
 
 ## **Screenshots**
-![Screenshot](imagenes/readme/random.png)
->*Example of 3 random generator boards.*  
+>![Screenshot](imagenes/readme/random.png)
+*Example of 3 random generator boards.*
 
-![Screenshot](imagenes/readme/zoom.png)
->*Example of the zoomed tile to observe the 10,000 divs.*  
+>![Screenshot](imagenes/readme/zoom.png)
+*Example of the zoomed tile to observe the 10,000 divs.*
 
 ## **Technologies**
-* Vanilla JS.
+* Vanilla JS
 
 ## **Setup**
 
