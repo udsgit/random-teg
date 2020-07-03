@@ -30,7 +30,9 @@ Unfortunately the project got quite big and very poorly optimized (around 20 sec
 *Example of the zoomed tile to observe the 10,000 divs.*
 
 ## **Technologies**
-* [Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* **Html**
+* **Css**
+* **JavaScript**
 
 ## **Setup**
 
